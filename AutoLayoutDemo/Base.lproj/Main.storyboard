@@ -91,14 +91,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixH-dM-Uvr">
-                                <rect key="frame" x="10" y="415.66666666666669" width="41.333333333333336" height="21"/>
+                                <rect key="frame" x="10" y="415.66666666666669" width="41.666666666666664" height="21"/>
                                 <color key="backgroundColor" red="0.75294119120000003" green="0.89019608500000003" blue="0.98823529480000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMu-3L-aRD">
-                                <rect key="frame" x="61.333333333333343" y="415.66666666666669" width="321.66666666666663" height="21"/>
+                                <rect key="frame" x="61.666666666666657" y="415.66666666666669" width="321.33333333333337" height="21"/>
                                 <color key="backgroundColor" red="1" green="0.83143278539999999" blue="0.70536708459999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -147,12 +147,9 @@
                                     <constraint firstItem="mML-hv-Ekc" firstAttribute="centerY" secondItem="6fs-zB-ctk" secondAttribute="centerY" id="7Hq-Ya-6Z5"/>
                                     <constraint firstAttribute="trailing" secondItem="XVa-j6-VMn" secondAttribute="trailing" constant="23" id="AcU-5d-wpX"/>
                                     <constraint firstItem="mML-hv-Ekc" firstAttribute="leading" secondItem="6fs-zB-ctk" secondAttribute="leading" constant="53" id="PUZ-V8-qt8"/>
-                                    <constraint firstItem="XVa-j6-VMn" firstAttribute="top" secondItem="6fs-zB-ctk" secondAttribute="top" constant="10" id="RZF-lG-faN"/>
                                     <constraint firstItem="XVa-j6-VMn" firstAttribute="leading" secondItem="mML-hv-Ekc" secondAttribute="trailing" constant="10" id="c2R-7T-76l"/>
-                                    <constraint firstAttribute="bottom" secondItem="XVa-j6-VMn" secondAttribute="bottom" constant="10" id="kb1-uh-fem"/>
                                     <constraint firstItem="XVa-j6-VMn" firstAttribute="centerY" secondItem="6fs-zB-ctk" secondAttribute="centerY" id="o6b-Sb-Cvj"/>
-                                    <constraint firstAttribute="bottom" secondItem="mML-hv-Ekc" secondAttribute="bottom" constant="10" id="rNN-A8-qwb"/>
-                                    <constraint firstItem="mML-hv-Ekc" firstAttribute="top" secondItem="6fs-zB-ctk" secondAttribute="top" constant="10" id="vpw-aD-MOd"/>
+                                    <constraint firstAttribute="width" secondItem="6fs-zB-ctk" secondAttribute="height" multiplier="58:11" id="v6q-Rs-XEw"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -160,7 +157,6 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="6fs-zB-ctk" firstAttribute="centerY" secondItem="8WX-BJ-Swv" secondAttribute="centerY" id="qb0-JP-onS"/>
-                            <constraint firstItem="6fs-zB-ctk" firstAttribute="centerY" secondItem="8WX-BJ-Swv" secondAttribute="centerY" id="qn3-x1-otw"/>
                             <constraint firstItem="6fs-zB-ctk" firstAttribute="centerX" secondItem="8WX-BJ-Swv" secondAttribute="centerX" id="zRX-Cc-iTU"/>
                         </constraints>
                     </view>
